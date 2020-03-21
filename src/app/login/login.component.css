@@ -19,3 +19,9 @@ button{
     font-size: 23px;
     /* border: 1px solid #ced4da; */
 }
+.userinfo{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    margin-top: 15px;
+}

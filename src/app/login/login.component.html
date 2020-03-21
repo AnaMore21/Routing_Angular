@@ -4,15 +4,15 @@
     <h1>Login</h1>
 
 <form action="" method="POST">
-  <label for="uname">Username:</label><br>
-  <input type="text" name="uname" placeholder="Enter Username"><br>
+  <label class="userinfo" for="uname">Username:</label>
+  <input type="text" #username name="uname" placeholder="Enter Username"><br>
 
-  <label for="psw">Password:</label><br>
-  <input type="password" name="psw" placeholder="Enter Password"><br><br>
+  <label class="userinfo" for="psw">Password:</label>
+  <input type="password" #password name="psw" placeholder="Enter Password"><br><br>
 
   <input type="checkbox" id="rem" name="rem" value="Remember">
   <label for="rem">Remember me!</label><br>
 
-  <button type="submit">Login</button>
+  <button type="submit"(click)="onLogin(username.value, password.value)">Login</button>
 </form> 
 </div>
