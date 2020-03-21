@@ -1,0 +1,63 @@
+/* Google fonts
+@import url('https://fonts.googleapis.com/css?family=Raleway'); */
+
+body{
+	padding: 0;
+	margin: 0;
+
+}
+form{
+	max-width: 30em;
+	margin: 4em auto;
+	position: relative;
+    background: #def2f9;
+    padding: 2em 3em;
+    overflow: hidden;
+}
+form h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 212, 249);;
+}
+form input[type=text]::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+   color:#666; 
+}
+form .data{
+    margin-top: 1em;
+}
+form .data li{
+ background: #fff;
+ border-left: 4px solid, rgb(0, 212, 249);
+ padding: 1em;
+ margin: 1em auto;
+ color: #666;
+ font-family: Arial, Helvetica, sans-serif;
+}
+form .data li i{
+    /* float: right; */
+    color: #888;
+    cursor: pointer;
+}
+
+form li.completed label {
+    color: #6da2e7;
+    text-decoration: line-through;
+}
+
+form .input-group-text{
+    background: rgb(0, 212, 249);
+    height: 45px;
+    padding: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+form .input-group-text i{
+    font-size: 2em;
+}
+form .form-control{
+	/* height: 3em; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+form .form-control:focus{
+	box-shadow: 0;
+}
